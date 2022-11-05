@@ -1,0 +1,75 @@
+
+    
+    .bg-pic{
+        top:0;
+        width: 100vw;
+        height: 100vh;
+       
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position:relative; 
+        
+    }
+    
+    .form2{
+        width: 300px;
+        border-radius: 5px;
+        
+        font-family: serif;
+        font-style: geramond;
+        top:5%;
+        left:40%;
+        position:absolute;
+        background-color: rgb(228, 239, 245);
+        align-items: left;
+        justify-content: left;
+        text-align: center;
+        opacity:0.8;
+        color:black;
+        padding:10px;
+        
+    }
+    h4{
+        margin:5px;
+        background:rgb(255, 218, 218);
+        padding:5px;
+    }
+    .aa{
+        padding:5px;
+    }
+    .but{
+        border-radius: 5px;
+        margin:15px 0;
+        
+        box-shadow: 0 1px;
+        width:150px;
+        height:28px;
+    }
+    .but:hover{
+        cursor:pointer;
+        background:black;
+        color:white;
+        
+    }
+    .far{
+        margin:2px;
+        margin-right: 10px;
+    }
+    .far:hover{
+        cursor:pointer;
+        background:black;
+        color:white;
+    }
+
+    .com{
+        margin:2px;
+
+    }
+    .com:hover{
+        cursor:pointer;
+        background:black;
+        color:white;
+    }
+
+    

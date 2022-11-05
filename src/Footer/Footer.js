@@ -1,5 +1,5 @@
 import '../Navbar/Navbar.css';
-
+import React from 'react';
 export default function Footer() {
   return (
     <footer className="footer" id="footer">
@@ -8,9 +8,9 @@ export default function Footer() {
           {/* <marquee behavior="" direction="right" scrollamount="20"> */}
             <div className="company">
               <div className="header__brand__name__footer">
-                FARM
+                KRISHI
                 <span className="header__brand__name__footer--title">
-                  Business
+                  SEWAK
                 </span>
                 -
               </div>

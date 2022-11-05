@@ -1,22 +1,24 @@
 import "../Home/Home.css";
-
+// import { Fa500Px } from "react-icons/fa";
+import React from "react";
+import {Farmer} from "../Login Pages/farmer"
 export default function Home() {
   return (
     <>
       <header class="header">
-        <div class="content">
+        <div class="content" >
           <h1>KRISHI-SEVAK</h1>
           <h2>One-stop platform to connect Indian farmers to renowned companies</h2>
           <div class="arrow bounce">
-            <a class="fa fa-arrow-down" href="/"></a>
+            <a class="fa fa-arrow-down" href="#features"> </a>
           </div>
           <section class="button">
             <div class="searchBox">
-              <button class="searchButton" href="#">
-                Login
+              <button class="searchButton" href="Farmer">
+                FARMER
               </button>
               <button class="searchButton" href="#">
-                Sign up
+                BUYER
               </button>
             </div>
           </section>
@@ -37,7 +39,7 @@ export default function Home() {
         </div>
       </header>
 
-      <section class="features">
+      <section class="features" id="features">
         <h1 class="features__heading">OUR SPECIAL FEATURES</h1>
         <div class="features__box">
           <div class="box-wrapper">
