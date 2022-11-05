@@ -1,8 +1,9 @@
 import "../Home/Home.css";
+import {Link} from "react-router-dom";
 import React from "react";
 import Navbar from '../Navbar/Navbar'
 import Footer from '../Footer/Footer'
-// import {Farmer} from "../Login Pages/farmer"
+import Farmer from "../Login Pages/farmer"
 const Home=()=> {
   return (
     
@@ -17,12 +18,12 @@ const Home=()=> {
           </div>
           <section class="button">
             <div class="searchBox">
-              <button class="searchButton" href="/Farmer">
+              <Link class="searchButton" to="/Farmer">
                 FARMER
-              </button>
-              <button class="searchButton" href="/Company">
+              </Link>
+              <Link class="searchButton" to="/Buyer">
                 BUYER
-              </button>
+              </Link>
             </div>
           </section>
           <section class="social_icons">

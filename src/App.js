@@ -4,8 +4,8 @@ import Footer from "./Footer/Footer";
 import Home from "./Home/Home";
 import Navbar from "./Navbar/Navbar";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-// import Form from "./Login Pages/farmer"
-
+import Farmerform from "./Login Pages/farmer"
+import Buyerform from "./Login Pages/company"
 function App() {
   return (
     <>
@@ -15,8 +15,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="/Home" element={<Home/>} />
-            
-            <Route path="/Footer" element={<Footer/>} />
+            <Route path="/Farmer" element={<Farmerform/>} />
+            <Route path="/Buyer" element={<Buyerform/>} />
           </Routes>
       </div>
       </Router>

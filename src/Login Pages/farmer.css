@@ -1,11 +1,11 @@
 
     .bg-pic{
-        top:0;
+        
         width: 100vw;
         height: 100vh;
-       
+       background-color: black;
         background-position: center;
-        background-repeat: no-repeat;
+        
         background-size: cover;
         position:relative; 
         
@@ -14,13 +14,13 @@
     
     
     .form1{
-        width: 300px;
+        width: 500px;
         border-radius: 5px;
-        
+        margin-top: 50px;
         font-family: serif;
         font-style: geramond;
-        top:5%;
-        left:40%;
+        top:15%;
+        left:35%;
         position:absolute;
         background-color: rgb(228, 239, 245);
         align-items: left;
@@ -28,15 +28,24 @@
         text-align: center;
         opacity:0.8;
         color:black;
-        padding:10px;
         
         
-        
+    }
+    text-arena{
+        width:150px;
+    }
+    label{
+        font-size: 2rem;
+    }
+    :placeholder-shown{
+
+        font-size: 1.5rem;
     }
     .form-button{
         margin:5px;
         background:rgb(255, 218, 218);
         padding:5px;
+        font-size: 2.5rem;
     }
     
     .aa{
@@ -45,7 +54,7 @@
         
     }
     .ab > .textarena{
-            width:10px;
+            width:100px;
         }
     
     .but{
@@ -80,5 +89,3 @@
         background:black;
         color:white;
     }
-
-    

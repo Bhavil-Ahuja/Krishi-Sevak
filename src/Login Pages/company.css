@@ -1,25 +1,24 @@
 
     
     .bg-pic{
-        top:0;
         width: 100vw;
         height: 100vh;
-       
+       background-color: black;
         background-position: center;
-        background-repeat: no-repeat;
+        
         background-size: cover;
         position:relative; 
         
     }
     
     .form2{
-        width: 300px;
+        width: 500px;
         border-radius: 5px;
-        
+        margin-top: 50px;
         font-family: serif;
         font-style: geramond;
-        top:5%;
-        left:40%;
+        top:15%;
+        left:35%;
         position:absolute;
         background-color: rgb(228, 239, 245);
         align-items: left;
@@ -27,7 +26,6 @@
         text-align: center;
         opacity:0.8;
         color:black;
-        padding:10px;
         
     }
     .form-button{
