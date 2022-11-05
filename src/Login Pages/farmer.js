@@ -1,5 +1,5 @@
 import React from "react";
-import '../Login Pages/farmer.scss';
+import '../Login Pages/farmer.css';
 const Backg =() =>{
     
 
@@ -17,7 +17,7 @@ const Backg =() =>{
        
                     
         <div className="form1">
-            <h4>FARMER</h4>
+            <h4 className="form-button">FARMER</h4>
             <form onSubmit={handleSubmit}>
                 
                 <div className="aa">
@@ -63,8 +63,6 @@ const Backg =() =>{
        
     )
 }
-
-
 
 export default Backg;
 

@@ -1,7 +1,10 @@
 import "../Navbar/Navbar.css";
 import React from "react";
+import {Link} from "react-router-dom"
+import Footer from "../Footer/Footer"
 export default function Navbar() {
   return (
+    <>
     <nav className="nav__container">
       <a href="/" className="Anchor_style">
         <div className="company">
@@ -26,18 +29,19 @@ export default function Navbar() {
       </a>
       <div className="nav__links">
         <div className="nav__link">
-          <a href="/#Home" className="Anchor_style">
+          <Link to="/Home" className="Anchor_style">
             Home
-          </a>
+          </Link>
         </div>
 
-        <div className="nav__link">
-          <a href="/#About" className="Anchor_style">
+        {/* <div className="nav__link">
+          <a href="/About" className="Anchor_style">
             About
           </a>
-        </div>
+        </div> */}
+
         <div className="nav__link">
-          <a href="#Feature" className="Anchor_style">
+          <a href="#features" className="Anchor_style">
             Features
           </a>
         </div>
@@ -48,5 +52,6 @@ export default function Navbar() {
         </div>
       </div>
     </nav>
+    </>
   );
 }

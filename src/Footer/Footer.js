@@ -8,11 +8,11 @@ export default function Footer() {
           {/* <marquee behavior="" direction="right" scrollamount="20"> */}
             <div className="company">
               <div className="header__brand__name__footer">
-                KRISHI
+                KRISHI-
                 <span className="header__brand__name__footer--title">
-                  SEWAK
+                  SEVAK
                 </span>
-                -
+                
               </div>
               <div className="company__logo">
                 <svg
@@ -295,7 +295,7 @@ export default function Footer() {
       </div>
       <div className="hr__line"></div>
       <div className="copyright">
-        <span className="u-red-text"> The Optimizers</span>, &#169; 2022 All
+        <span className="u-red-text"> BINARY SMASHERS</span>, &#169; 2022 All
         Rights Reserved
       </div>
     </footer>

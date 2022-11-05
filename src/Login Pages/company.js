@@ -16,7 +16,7 @@ const Company =() =>{
         <div className="user">
                     
         <div className="form2">
-            <h4>COMPANY</h4>
+            <h4 className="form-button">COMPANY</h4>
             <form onSubmit={handleSubmit}>
                 
                 <div className="aa">
