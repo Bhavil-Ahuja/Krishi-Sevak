@@ -1,0 +1,88 @@
+import car01 from '../images/sell-car.jpg';
+
+
+const bookingCars = [
+  {
+    id: "01",
+    carName: "Wheat",
+    category: "10Q",
+    type: "ABC co.",
+    groupSize: 4,
+    rentPrice: 50,
+    imgUrl: car01,
+  },
+  {
+    id: "02",
+    carName: "Barley",
+    category: "12Q",
+    type: "ABC co.",
+    groupSize: 4,
+    rentPrice: 52,
+    imgUrl: car01,
+  },
+  {
+    id: "03",
+    carName: "Rice",
+    category: "20Q",
+    type: "ABC co.",
+    groupSize: 4,
+    rentPrice: 18,
+    imgUrl: car01,
+  },
+  {
+    id: "04",
+    carName: "Barley",
+    category: "18Q",
+    type: "ABC co.",
+    groupSize: 4,
+    rentPrice: 52,
+    imgUrl: car01,
+  },
+  {
+    id: "05",
+    carName: "Rice",
+    category: "15Q",
+    type: "ABC co.",
+    groupSize: 4,
+    rentPrice: 109,
+    imgUrl: car01,
+  },
+  {
+    id: "06",
+    carName: "Wheat",
+    category: "25Q",
+    type: "ABC co.",
+    groupSize: 4,
+    rentPrice: 89,
+    imgUrl: car01,
+  },
+  {
+    id: "07",
+    carName: "Weat",
+    category: "18Q",
+    type: "ABC co.",
+    groupSize: 4,
+    rentPrice: 89,
+    imgUrl: car01,
+  },
+  {
+    id: "08",
+    carName: "Wheat",
+    category: "25Q",
+    type: "ABC co.",
+    groupSize: 4,
+    rentPrice: 59,
+    imgUrl: car01,
+  },
+  {
+    id: "09",
+    carName: "Rice",
+    category: "25Q",
+    type: "ABC co.",
+    groupSize: 4,
+    rentPrice: 109,
+    imgUrl: car01,
+  },
+];
+
+export default bookingCars;
